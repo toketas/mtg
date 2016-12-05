@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./app/components/Main.js",
+  entry: "./app/index.jsx",
   output: {
     path: "./public",
     filename: "bundle.js",
@@ -18,7 +18,7 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    contentBase: './public',
+    contentBase: './',
     port: 8000,
   },
 }
