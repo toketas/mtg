@@ -4,14 +4,14 @@
 
 `git@github.com:toketas/mtg.git`
 
-## Update your environment:
+## What is:
 
 ```
-  $ git fetch
-  $ git rebase
+  Is a user friendly search engine for mtg cards. You can quickly search and
+  find new cards, helping your brewing
 ```
 
-## Submit code:
+## Some notes:
 
 Check your code first:
 - `git diff` tells which lines of code you've changed
