@@ -1,5 +1,5 @@
-from flask import *
-from models import *
+from flask import Flask
+from models import psql_db, initialize_db
 
 app = Flask(__name__)
 
@@ -13,9 +13,7 @@ def teardown_request(exc):
 
 @app.route('/')
 def home():
-    return jsonify({
-        'foo': "bar",
-    })
+    return 'Hello world'
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
